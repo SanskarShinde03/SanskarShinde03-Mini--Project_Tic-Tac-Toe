@@ -1,38 +1,100 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #654F6F, #8e5b96);
+  color: #fff;
   text-align: center;
+  padding: 2rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #f2f2f2;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  height: auto;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 2rem 0;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5vmin;
+  align-items: center;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  border: none;
+  background-color: #f0f0f0;
+  color: #2b2b2b;
+  font-size: 10vmin;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.box:hover {
+  background-color: #d6d6d6;
+  transform: scale(1.05);
+}
+
+.box:disabled {
+  cursor: not-allowed;
+  background-color: #bdbdbd;
+}
+
+.reset,
+.new {
+  font-size: 1.2rem;
+  padding: 0.75rem 2rem;
+  background-color: #282a36;
+  color: #fff;
+  border: none;
+  border-radius: 1rem;
+  margin: 1rem 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.reset:hover,
+.new:hover {
+  background-color: #44475a;
+  transform: scale(1.05);
+}
+
+.msg-container {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+#msg {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fcd34d;
+  margin-bottom: 1rem;
+}
+
+.hide {
+  display: none;
 }
