@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SanskarShinde03-Mini--Project_Tic-Tac-Toe/static/css/main.470bbdf7.css",
+    "main.js": "/SanskarShinde03-Mini--Project_Tic-Tac-Toe/static/js/main.cc06febf.js",
+    "static/js/453.44377a28.chunk.js": "/SanskarShinde03-Mini--Project_Tic-Tac-Toe/static/js/453.44377a28.chunk.js",
+    "index.html": "/SanskarShinde03-Mini--Project_Tic-Tac-Toe/index.html",
+    "main.470bbdf7.css.map": "/SanskarShinde03-Mini--Project_Tic-Tac-Toe/static/css/main.470bbdf7.css.map",
+    "main.cc06febf.js.map": "/SanskarShinde03-Mini--Project_Tic-Tac-Toe/static/js/main.cc06febf.js.map",
+    "453.44377a28.chunk.js.map": "/SanskarShinde03-Mini--Project_Tic-Tac-Toe/static/js/453.44377a28.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.470bbdf7.css",
+    "static/js/main.cc06febf.js"
+  ]
+}
